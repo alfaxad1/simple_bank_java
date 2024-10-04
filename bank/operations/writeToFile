@@ -1,0 +1,11 @@
+package bank.operations;
+
+import java.io.*;
+
+public class writeToFile{
+
+    BufferedWriter write = new BufferedWriter(new FileWriter("Accounts.csv"));
+    writer.write(name, Account, PIN, initialBalance, branch);
+    writer.close;
+
+}
